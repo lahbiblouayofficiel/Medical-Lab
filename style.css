@@ -1,0 +1,55 @@
+/* CSS pour une div avec la classe "sizew" */
+div.sizew {
+    width: 50%; /* Définir une largeur de 50% */
+  }
+  
+  /* Si vous voulez retirer la largeur quand ce n'est pas en plein écran */
+  @media screen and (max-width: 900px) {
+    div.sizew {
+      width: auto; /* Retirer la largeur pour les écrans plus petits */
+    }
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: #2596be;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .services {
+    margin-bottom: 20px;
+  }
+  .services h2 {
+    color: #2596be;
+  }
+
+
+
+
+
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
